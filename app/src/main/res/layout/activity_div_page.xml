@@ -1,0 +1,49 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 1"
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the 1st number"
+        android:inputType="number"
+        android:id="@+id/onenum"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 2"
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the 2nd number"
+        android:inputType="number"
+        android:id="@+id/twonum"
+        android:textAlignment="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDE"
+        android:id="@+id/divide"
+        android:layout_margin="30px"
+        android:background="#17BED3"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO MENU"
+        android:id="@+id/gotomenu"
+        android:layout_margin="30px"
+        android:background="#17BED3"/>
+</LinearLayout>
